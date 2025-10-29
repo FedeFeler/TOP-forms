@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Norse";
+  src: url('font/norse-bold-webfont.woff2') format('woff2'),
+  url('font/norse-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.background {
+  display: flex;
+  background-color: black;
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35vw;
+  height: 100vh;
+}
+
+.odin-logo {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.546);
+  height: max-content;
+  width: 100%;
+  justify-content: center;
+  margin-top: 150px;
+  padding: 10px;
+}
+
+.odin-img {
+  height: 5.5rem;
+}
+
+.odin-text {
+  font-size: 5.5rem;
+  color: white;
+  font-family: "Norse", sans-serif;
+}
