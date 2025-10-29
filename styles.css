@@ -92,3 +92,19 @@ input {
   border: 1px solid rgb(191, 191, 191);
   border-radius: 2px;
 }
+
+#pwd:invalid,
+#confirm-pwd:invalid {
+  border: 1px solid red;
+}
+
+#pwd:valid,
+#confirm-pwd:valid {
+  border: 1px solid green;
+}
+
+input:focus {
+  border-color: blue;
+  outline: none;
+  box-shadow: 0 0 4px gray;
+}
