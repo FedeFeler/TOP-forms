@@ -24,7 +24,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   width: 35vw;
-  height: 100vh;
 }
 
 .odin-logo {
@@ -72,3 +71,4 @@ form h1 {
   font-size: 1.2rem;
   color: rgb(44, 44, 44);
 }
+
