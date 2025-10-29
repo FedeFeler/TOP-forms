@@ -20,6 +20,7 @@ body {
 
 .background {
   display: flex;
+  flex-direction: column;
   background-color: black;
   background-image: url(img/bg.jpg);
   background-size: cover;
@@ -45,6 +46,13 @@ body {
   font-size: 5.5rem;
   color: white;
   font-family: "Norse", sans-serif;
+}
+
+.credits {
+  margin-top: 510px;
+  color: white;
+  font-size: 0.7rem;
+  text-align: center;
 }
 
 .body {
