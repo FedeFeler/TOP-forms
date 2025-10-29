@@ -15,6 +15,7 @@
 
 body {
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .background {
@@ -90,7 +91,7 @@ input {
   padding: 5px;
   font-family: Arial, Helvetica, sans-serif;
   border: 1px solid rgb(191, 191, 191);
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 #pwd:invalid,
@@ -107,4 +108,14 @@ input:focus {
   border-color: blue;
   outline: none;
   box-shadow: 0 0 4px gray;
+}
+
+button {
+  margin: 30px;
+  padding: 10px 40px;
+  background-color: #596D48;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  border: none;
 }
