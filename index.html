@@ -16,6 +16,7 @@
   <main class="body">
   <p class="text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br> Sign up <i>now</i> to get started.</p>
   <p class="text">You <i>know</i> you want to</p>
+  
   <form>
     <h1>Let's do this!</h1>
     <div class="inputs">
@@ -43,14 +44,15 @@
     <div class="inputs">
       <div class="input-label">
         <label class="pwd" for="pwd">PASSWORD</label>
-        <input id="pwd" type="password" name="pwd">
+        <input id="pwd" type="password" name="pwd" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$" required>
       </div>
       <div class="input-label">
         <label for="confirm-pwd">CONFIRM PASSWORD</label>
-        <input id="confirm-pwd" type="password" name="pwd">
+        <input id="confirm-pwd" type="password" name="pwd" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$" required>
       </div>
     </div>
   </form>
+  <button>Create Account</button>
 </main>
 </body>
 </html>
