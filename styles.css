@@ -119,3 +119,12 @@ button {
   font-weight: bold;
   border: none;
 }
+.log-in {
+margin: 0 30px;
+}
+
+.log-in a {
+  text-decoration: none;
+  color:#596D48;
+  font-weight: bold;
+}
